@@ -1,0 +1,9 @@
+{
+  "name": "aeiasw-donaciones-back",
+  "version": "1.0.0",
+  "description": "Backend de donaciones (Stripe + Supabase) para la web de AEIASW",
+  "dependencies": {
+    "stripe": "16.12.0",
+    "@supabase/supabase-js": "2.108.2"
+  }
+}

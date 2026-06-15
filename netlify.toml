@@ -1,0 +1,9 @@
+# Configuración de Netlify
+# Coloca este archivo en la raíz del repositorio
+
+[build]
+  functions = "netlify/functions"
+  publish = "."
+
+[functions]
+  node_bundler = "esbuild"
