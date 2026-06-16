@@ -55,8 +55,8 @@ exports.handler = async (event) => {
       // Guardamos los datos del donante para el certificado fiscal
       metadata: { nombre: nombre || "", email: email || "", dni: dni || "" },
       // A dónde vuelve el donante tras pagar (cambia TUDOMINIO)
-      success_url: "https://TUDOMINIO.es/?donacion=ok",
-      cancel_url: "https://TUDOMINIO.es/?donacion=cancelada",
+success_url: "https://amazing-elf-514ac4.netlify.app/?donacion=ok",
+   cancel_url: "https://amazing-elf-514ac4.netlify.app/?donacion=cancelada",
     });
 
     return { statusCode: 200, headers, body: JSON.stringify({ url: session.url }) };
